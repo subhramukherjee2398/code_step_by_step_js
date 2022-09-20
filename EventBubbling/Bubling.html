@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML 5 Boilerplate</title>
+  </head>
+  <style>
+    .t {
+      background-color: aquamarine;
+      padding: 5%;
+      text-align: center;
+    }
+    .t1 {
+      background-color: brown;
+      padding: 5%;
+      text-align: center;
+    }
+    .t2 {
+      background-color: rebeccapurple;
+      padding: 5%;
+      text-align: center;
+    }
+  </style>
+   
+    <h2>code step by step</h2>
+    <div>
+      <div onclick="myFunction()" class="t">
+        TOP
+        <div onclick="myFunction2()" class="t1">
+          MIDDLE
+
+          <div onclick="myFunction3()" class="t2">INNER</div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function myFunction() {
+ alert("top ")
+}
+function myFunction2() {
+    event.stopPropagation()
+ alert("md ")
+}
+function myFunction3() {
+ alert("inner ")
+}
+  </script>
+  <body>
+</html>
