@@ -7,4 +7,3 @@ customElements.define('custom-tag',
     }
 )
 
-console.log('hrllo')
